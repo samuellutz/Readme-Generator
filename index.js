@@ -9,6 +9,7 @@ const questions = () => {
     // using inquirer to prompt questions to user 
     return inquirer.prompt([
     {
+        // starts prompts to fill in
         type: 'input',
         name: 'github',
         message: 'What is your GitHub username?',
@@ -113,16 +114,40 @@ const questions = () => {
         name: 'contributors',
         message: 'What does the user need to know about contributing to the repo?'
     }
-]);
+]) 
 }
-// starts prompts to fill in
-questions()
+
+
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+const writeToFile = data => {
+    fs.writeToFile('README.md', data, err => {
+        // if there is an error 
+        if (err) {
+            console.log(err);
+            return;
+        // when the README has been created 
+        } else {
+            console.log("Your README has been successfully created!")
+        }
+    })
+}; 
+
 
 // TODO: Create a function to initialize app
 function init() {}
 
 // Function call to initialize app
 init();
+questions()
+.then(answers => {
+    return generatePage(answers);
+})
+// using data to display on page 
+.then(data => {
+    return writeToFile(data);
+})
+// catching errors 
+.catch(err => {
+    console.log(err)
+})
