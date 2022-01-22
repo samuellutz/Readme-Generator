@@ -1,8 +1,8 @@
-# readme Generator
-  [![PyPI licence](http://img.shields.io/badge/license-Apache 2.0-blue.svg)
+# sam
+  [![PyPI licence](http://img.shields.io/badge/license-BSD-blue.svg)
   
   ## Description 
-  this project generates a quality read me.
+  sam
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -12,14 +12,14 @@
   * [Questions](#questions)
   
   ## Installation 
-  none
+  sam
   ## Usage 
-  to make a readme
+  sam
   ## License 
-  This project is license under https://choosealicense.com/licenses/mit/
+  This project is license under (https://choosealicense.com/licenses/BSD/)
   ## Contributing 
-  none
+  sam
   ## Tests
-  no idea
+  sam
   ## Questions
-  If you have any questions about this projects, please contact me directly at samuellutz88@gmail.com. You can view more of my projects at https://github.com/samuellutz.
+  If you have any questions about this projects, please contact me directly at samlutz. You can view more of my projects at https://github.com/samuellutz.
