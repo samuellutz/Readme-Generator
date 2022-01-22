@@ -66,7 +66,7 @@ const questions = () => {
         type: 'list',
         name: 'license',
         message: 'What kind of license should your project have?',
-        choices: ['license 1', 'license 2', 'license 3'],
+        choices: ['Apache 2.0', 'Boost', 'BSD'],
         default: ["license 1"],
         validate: nameInput => {
             if (nameInput) {
@@ -121,7 +121,7 @@ const questions = () => {
 
 // TODO: Create a function to write README file
 const writeToFile = data => {
-    fs.writeToFile('README.md', data, err => {
+    fs.writeFile('README.md', data, err => {
         // if there is an error 
         if (err) {
             console.log(err);
