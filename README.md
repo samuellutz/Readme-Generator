@@ -1,5 +1,5 @@
 # readme thing
-  [![PyPI licence](http://img.shields.io/badge/license-BSD-blue.svg)
+  ![PyPI licence](http://img.shields.io/badge/license-BSD-blue.svg)
   
   ## Description 
   this should generate a good readme
