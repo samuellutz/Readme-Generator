@@ -1,5 +1,5 @@
 # sam
-  [![PyPI licence](http://img.shields.io/badge/license-BSD-blue.svg)
+  ![PyPI licence](http://img.shields.io/badge/license-gpl-3.0-blue.svg)
   
   ## Description 
   sam
@@ -16,7 +16,7 @@
   ## Usage 
   sam
   ## License 
-  This project is license under (https://choosealicense.com/licenses/BSD/)
+  This project is license under (https://choosealicense.com/licenses/gpl-3.0/)
   ## Contributing 
   sam
   ## Tests
