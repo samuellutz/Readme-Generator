@@ -15,7 +15,7 @@
   The user needs to clone the repository from GitHub and download Node.JS, to use this application you aslo need to use the file system Inquirer module. then follow the step by step instructions in the video below.
   ## Usage 
   use Inquirer from your command terminal and answer all the questions.
-  <iframe src="https://drive.google.com/file/d/1ETXeVumTz2dwyHCZb_O4KFyvF6MGUkeH/preview" width="640" height="480"></iframe>
+  https://watch.screencastify.com/v/Nln18QMqF5Il5ys5yFgA
   
   ## License 
   This project is license under (https://choosealicense.com/licenses/MIT/)
