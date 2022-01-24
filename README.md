@@ -1,5 +1,5 @@
 # ReadMe generator
-  [![PyPI licence](http://img.shields.io/badge/license-MIT-blue.svg)
+  ![PyPI licence](http://img.shields.io/badge/license-MIT-blue.svg)
   
   ## Description 
   This application was created to generate a professional README depending on a series of questions a user answers in their command line using Node.js. then will automatically generate the readme!
