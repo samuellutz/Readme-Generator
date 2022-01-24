@@ -16,7 +16,7 @@
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  ![PyPI licence](http://img.shields.io/badge/license-${data.license}-blue.svg)
+  [![PyPI licence](http://img.shields.io/badge/license-${data.license}-blue.svg)
   
   ## Description 
   ${data.description}

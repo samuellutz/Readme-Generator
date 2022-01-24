@@ -1,8 +1,8 @@
-# sam
-  ![PyPI licence](http://img.shields.io/badge/license-gpl-3.0-blue.svg)
+# ReadMe generator
+  [![PyPI licence](http://img.shields.io/badge/license-MIT-blue.svg)
   
   ## Description 
-  sam
+  This application was created to generate a professional README depending on a series of questions a user answers in their command line using Node.js. then will automatically generate the readme!
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -12,14 +12,14 @@
   * [Questions](#questions)
   
   ## Installation 
-  sam
+  The user needs to clone the repository from GitHub and download Node.JS, to use this application you aslo need to use the file system Inquirer module. then follow the step by step instructions in the video below.
   ## Usage 
-  sam
+  use Inquirer from your command terminal and answer all the questions.
   ## License 
-  This project is license under (https://choosealicense.com/licenses/gpl-3.0/)
+  This project is license under (https://choosealicense.com/licenses/MIT/)
   ## Contributing 
-  sam
+  Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
   ## Tests
-  sam
+  NPM test
   ## Questions
-  If you have any questions about this projects, please contact me directly at samlutz. You can view more of my projects at https://github.com/samuellutz.
+  If you have any questions about this projects, please contact me directly at samuelutz88@gmail.com. You can view more of my projects at https://github.com/samuellutz.
