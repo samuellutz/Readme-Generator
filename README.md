@@ -1,5 +1,5 @@
 # sam
-  [![PyPI licence](http://img.shields.io/badge/license-gpl-3.0-blue.svg)
+  ![PyPI licence](http://img.shields.io/badge/license-gpl-3.0-blue.svg)
   
   ## Description 
   sam
